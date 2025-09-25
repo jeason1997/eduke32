@@ -1,41 +1,89 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+obj/
 
-# Precompiled Headers
-*.gch
-*.pch
+/eduke32
+/mapster32
+/voidsw
+/wangulator
+/ekenbuild
+/ekenbuild-editor
 
-# Linker files
-*.ilk
+/arttool
+/bsuite
+/cacheinfo
+/enumdisplay
+/generateicon
+/getdxdidf
+/givedepth
+/ivfrate
+/kextract
+/kgroup
+/kmd2tool
+/makesdlkeytrans
+/map2stl
+/md2tool
+/mkpalette
+/transpal
+/unpackssi
+/wad2art
+/wad2map
 
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+apps/
 *.exe
-*.out
-*.app
+/*.dll
+*.dylib
+*.so
+*.elf
+*.dol
+*.x86
+*.x64
+*.ppc
+/*.app
 
-# debug information files
-*.dwo
+*.log
+*.cache
+*.cfg
+textures
+texturecache
+*.index
+
+*.manifest
+/*.map
+/platform/Windows/*.map
+*.pdb
+*.iobj
+*.ipdb
+*.ilk
+.vs/
+*.VC.db
+*.VC.opendb
+*.sym
+/*.grp
+/*.rts
+/*.art
+/*.con
+/platform/Windows/*.con
+*.memmap
+*.sdf
+*.suo
+*.opensdf
+*.vcxproj.user
+*.psess
+*.vsp
+/platform/Windows/Debug/
+/platform/Windows/Release/
+/platform/Windows/Build/
+/platform/Windows/x64/
+/platform/Windows/Win32/
+/platform/Windows/ARM64/
+*.exp
+*.lib
+perl.exe.stackdump
+
+xcuserdata/
+project.xcworkspace/
+*.dSYM/
+
+.DS_Store
+._*
+/source/voidwrap/sdk/

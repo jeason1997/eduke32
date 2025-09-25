@@ -1,0 +1,2 @@
+VC_REV := 10627
+VC_HASH := e5aad1886
